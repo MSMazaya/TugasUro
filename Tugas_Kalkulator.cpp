@@ -121,15 +121,10 @@ int main(){
                 cout << "Hasil : " << Matematika.pangkat(a,n) << endl;
                 break;
             case 6:
-            // Menggunakan kurung kurawal karena harus deklarasi integer orde, kalau tidak nanti
-            // ada error bypass
-            {
-                int orde;
                 cout << "============" << endl << "integral dari a ke b dari f(x) dengan a<b" << endl << "============" << endl;
                 cout << "Masukkan a: "; cin >> a;
                 cout << "Masukkan b: "; cin >> b;
                 Matematika.integral(a,b);
-            };
                 break;
             default:
                 cout << "Input Tidak Valid" << endl;
